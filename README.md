@@ -3,6 +3,7 @@ This project showcases end-to-end data warehousing skills, from designing to bui
 
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
 ![Data Architecture](docs/Data%20Warehouse%20Architecture%20.png)
 
 
@@ -18,6 +19,8 @@ This project involves:
 ---
 
 # Detailed Project Structure
+
+![star_schema](docs/data_flow_diagram.png)
 
 ## 🟤 Bronze Layer - Raw Data Ingestion
 
@@ -67,6 +70,7 @@ The Silver Layer refines and standardizes the raw data ingested from the Bronze 
 - Improve data consistency, quality, and usability.
 - Prepare analysis-ready datasets for modeling in the Gold Layer.
 
+
 ---
 
 ## 🟡 Gold Layer - Business-Ready Star Schema
@@ -86,6 +90,8 @@ The Gold Layer consolidates cleansed data into a final star schema ready for ana
 ### Purpose:
 - Deliver a high-quality, structured data model optimized for business intelligence, data analysis.
 
+![star_schema](docs/data_model.png)
+
 ---
 
 # ⚙️ Tools and Technologies
@@ -96,13 +102,3 @@ The Gold Layer consolidates cleansed data into a final star schema ready for ana
 - Medallion Architecture (Bronze, Silver, Gold)
 - Business Intelligence Preparation
 
----
-
-# 📈 Key Highlights
-
-- Integrated multiple data sources (CRM and ERP) into a unified data warehouse.
-- Applied full ETL pipelines with data quality checks and business rule transformations.
-- Designed a scalable and modular Medallion Architecture.
-- Delivered business-ready views supporting BI, Ad-Hoc SQL queries, and machine learning.
-
----
