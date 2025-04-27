@@ -20,7 +20,7 @@ This project involves:
 
 # Detailed Project Structure
 
-![star_schema](docs/data_flow_diagram.png)
+![data_flow](docs/data_flow_diagram.png)
 
 ## 🟤 Bronze Layer - Raw Data Ingestion
 
@@ -44,6 +44,8 @@ The Bronze Layer represents the initial raw ingestion of CRM and ERP source file
 ### Purpose:
 - Preserve raw source data without transformation.
 - Serve as the base for further processing in the Silver Layer.
+
+![data_integration](docs/data_integration.png)
 
 ---
 
@@ -90,7 +92,7 @@ The Gold Layer consolidates cleansed data into a final star schema ready for ana
 ### Purpose:
 - Deliver a high-quality, structured data model optimized for business intelligence, data analysis.
 
-![star_schema](docs/data_model.png)
+![data_model](docs/data_model.png)
 
 ---
 
