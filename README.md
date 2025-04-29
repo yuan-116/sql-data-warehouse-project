@@ -102,5 +102,4 @@ The Gold Layer consolidates cleansed data into a final star schema ready for ana
 - ETL Pipelines (Stored Procedures, BULK INSERT)
 - Star Schema Design
 - Medallion Architecture (Bronze, Silver, Gold)
-- Business Intelligence Preparation
 
