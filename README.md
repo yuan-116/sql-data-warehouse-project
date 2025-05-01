@@ -9,7 +9,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ---
 
-## 📚 Project Overview
+##  Project Overview
 
 This project involves:
 1. **Data Architecture**: Designing a modern data warehouse using Medallion Architecture (Bronze, Silver, Gold).
@@ -96,7 +96,7 @@ The Gold Layer consolidates cleansed data into a final star schema ready for ana
 
 ---
 
-# ⚙️ Tools and Technologies
+#  Tools and Technologies
 
 - SQL Server
 - ETL Pipelines (Stored Procedures, BULK INSERT)
